@@ -19,7 +19,7 @@ p
 body
 {
     font-family: "Times New Roman", Helvetica, Tahoma, Arial, "LXGW WenKai", "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.7;
     /* letter-spacing: 0.6px; */
     color: var(--font-color-1);
@@ -56,7 +56,7 @@ a
 .index-main
 {
     width: 100%;
-    max-width: 1580px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 36px 4.5vw 0px;
     border-radius: 0px;
