@@ -67,11 +67,13 @@
 }
 .post-md strong
 {
-    font-weight: 700;
+    font-weight: bold;
+    font-family: LXGW WenKai Bold;
 }
 .post-md em
 {
     font-style: italic;
+
 }
 .post-md kbd
 {
@@ -127,24 +129,24 @@
     width: 100%;
 }
 
-.post-md>table
+.post-md table
 {
     width: 100%;
     text-align: left;
     border-spacing: 0;
 }
-.post-md>table th
+.post-md table th
 {
     padding: 12px 0;
     border-bottom: 2px solid var(--line-1);
 }
-.post-md>table tr:nth-child(odd) td
+.post-md table tr:nth-child(odd) td
 {
     padding: 12px 0;
     border-bottom: 1px solid var(--line-1);
     background: #fafafa;
 }
-.post-md>table tr:nth-child(even) td
+.post-md table tr:nth-child(even) td
 {
     padding: 12px 0;
     border-bottom: 1px solid var(--line-1);
@@ -156,7 +158,7 @@
     border-radius: 4px;
     background: #e4e4e4;
     padding: 2px 4px;
-    color: #000000;
+    color: #2d2d2d;
     font-size: 1rem;
 }
 

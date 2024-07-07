@@ -19,10 +19,13 @@
         url("https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/LXGWWenKaiMono-Regular.woff2") format("woff2"),
         url("../fonts/LXGWWenKaiLite-Regular.woff2") format("woff2"),
         url("../fonts/LXGWWenKaiMono-Regular.woff2") format("woff2");
-
-
-        
 }
 
-
-
+@font-face {
+    font-family: "LXGW WenKai Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("../fonts/LXGWWenKaiLite-Bold.woff2"),
+        url("https://jsd.onmicrosoft.cn/gh/hininojay/images/source/img/a4color/LXGWWenKaiLite-Bold.woff2") format("woff2"),
+        url("../fonts/LXGWWenKaiLite-Bold.woff2") format("woff2");
+}
