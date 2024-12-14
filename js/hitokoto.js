@@ -1,14 +1,1 @@
-fetch('https://v1.hitokoto.cn/?c=k') // 具体接口信息：https://developer.hitokoto.cn/sentence/
-    .then(function (res) {
-        return res.json();
-    })
-    .then(function (data) {
-        var hitokoto = document.getElementById('quote')
-        hitokoto.innerText = data.hitokoto;
-    })
-    .catch(function (err) {
-        console.error(err);
-    })
-
-
-
+fetch("https://v1.hitokoto.cn/?c=k").then(function(t){return t.json()}).then(function(t){document.getElementById("quote").innerText=t.hitokoto}).catch(function(t){console.error(t)});
